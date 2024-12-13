@@ -1,0 +1,21 @@
+@use "../../styles/layout";
+@use "../../styles/palette";
+@use "../../styles/typography";
+
+.filter-resource {
+	margin-bottom: 1rem;
+
+	label {
+		margin-right: 0.5rem;
+		font: typography.$body-text-weight typography.$body-text-size
+			typography.$body-text-family;
+	}
+
+	select {
+		padding: 0.5rem;
+		font-size: typography.$body-text-size;
+		border: 1px solid palette.$light-grey;
+		border-radius: 8px;
+		background-color: white;
+	}
+}
