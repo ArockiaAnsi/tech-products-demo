@@ -12,6 +12,6 @@ describe("FilterResource", () => {
 
 		const select = screen.getByRole("combobox");
 		const options = within(select).getAllByRole("option");
-		expect(options).toHaveLength(1); // Only "All Topics" should be available
+		expect(options).toHaveLength(1);
 	});
 });
